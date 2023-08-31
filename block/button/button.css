@@ -10,6 +10,7 @@
     padding-top: 16px;
     margin: -35px auto;
     cursor: pointer;
+    border: none;
 }
 
 .button__svg {
