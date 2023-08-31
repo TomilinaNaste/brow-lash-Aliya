@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url(/block/header/header.css);
+@import url(block/header/header.css);
+@import url(block/button/button.css);
+@import url(block/main-info/main-info.css);
 .page {
     margin: 0 auto 0;
-    width: 100%;
+    max-width: 790px;
     box-sizing: border-box;
 
     -webkit-font-smoothing: antialiased;
