@@ -24,7 +24,24 @@
   width: 40px;
   height: 40px;
 }
-
+.main-info__icon_inst{
+  background-image: url(/image/ins-m.svg);
+}
+.main-info__icon_inst:hover{
+  background-image: url(/image/inst-color.svg);
+}
+.main-info__icon_vk{
+  background-image: url(/image/vk.svg);
+}
+.main-info__icon_vk:hover{
+  background-image: url(/image/vk-color.svg);
+}
+.main-info__icon_wa{
+  background-image: url(/image/whatsup.svg);
+}
+.main-info__icon_wa:hover{
+  background-image: url(/image/whatsup-color.svg);
+}
 .main-info__icons {
     list-style-type: none;
     margin: 0;

@@ -16,7 +16,8 @@
   padding: 0;
   display: flex;
   gap: 8px;
-  padding: 0 0 17px 19px;
+  /* padding: 0 0 17px 19px; */
+  padding-bottom: 17px;
 }
 
 .portfolio__subtitle {
