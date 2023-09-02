@@ -5,6 +5,7 @@
 @import url(block/about-me/about-me.css);
 @import url(block/portfolio/portfolio.css);
 @import url(block/price/price.css);
+@import url(block/contacts/contacts.css);
 .page {
     margin: 0 auto 0;
     max-width: 790px;

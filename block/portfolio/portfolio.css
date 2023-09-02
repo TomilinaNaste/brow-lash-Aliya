@@ -42,20 +42,6 @@
   padding: 64px 0 24px;
 }
 
-.portfolio__button {
-  right: -247px;
-  margin-right: 19px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: 1px solid #282828;
-  border-radius: 30px;
-  width: 126px;
-  height: 36px;
-  background-color: transparent;
-  position: relative;
-}
-
 .portfolio__span {
   font-family: Roboto;
   font-size: 14px;
