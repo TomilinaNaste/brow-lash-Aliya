@@ -1,0 +1,70 @@
+.price {
+  margin: 0 auto;
+  max-width: 390px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.price__description {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  color: #575757;
+  margin: 0;
+  grid-area: desc;
+  padding-bottom: 8px;
+
+}
+
+.price__list {
+  border-bottom: 1px solid #000;
+}
+.price__container{
+  display: grid;
+  grid-template-areas:
+    "name sum"
+    "desc .";
+  justify-content: space-between;
+}
+
+.price__lists {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.price__name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  text-transform: uppercase;
+  margin: 0;
+  grid-area: name;
+}
+
+.price__sum {
+  grid-area: sum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  text-transform: uppercase;
+}
+
+.price__title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 125% */
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  padding: 64px 0 24px;
+}

@@ -1,0 +1,40 @@
+.about-me {
+  margin: 0 auto;
+  max-width: 390px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+.about-me__description {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me__description_padding {
+  padding-bottom: 24px;
+}
+
+.about-me__image {
+  max-width: 390px;
+  width: 100%;
+  object-fit: cover;
+  padding: 12px 0;
+}
+
+.about-me__title {
+  text-align: center;
+  margin: 0;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  /* 125% */
+  text-transform: uppercase;
+}

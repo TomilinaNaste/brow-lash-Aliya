@@ -1,7 +1,4 @@
 .main-info {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     margin: 0 auto;
     max-width: 390px;
     padding: 54px 0 64px;
@@ -31,7 +28,7 @@
 .main-info__icons {
     list-style-type: none;
     margin: 0;
-    padding: 40px 0 0 ;
+    padding: 40px 0 0;
     display: flex;
     justify-content: center;
     gap: 56px
@@ -49,7 +46,7 @@
 
 .main-info__title {
     margin: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif   ;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;

@@ -2,6 +2,9 @@
 @import url(block/header/header.css);
 @import url(block/button/button.css);
 @import url(block/main-info/main-info.css);
+@import url(block/about-me/about-me.css);
+@import url(block/portfolio/portfolio.css);
+@import url(block/price/price.css);
 .page {
     margin: 0 auto 0;
     max-width: 790px;

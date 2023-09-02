@@ -17,7 +17,7 @@
             </ul>
         </nav>
         <img src="./image/baby.jpg" alt="Аватар" class="header__avatar">
-        <button class="button"><span class="button__span">Записаться онлайн<svg class="button__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <button class="button button_margin"><span class="button__span">Записаться онлайн<svg class="button__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg></span></button>
     </header>
     <main class="content">
@@ -28,11 +28,68 @@
                 <span>Посмотри мои работы и убедись сама!</span></p>
             <nav>
                 <ul class="main-info__icons">
-                    <li><a href="#" class="main-info__link"><img src="./image/ins-m.svg" alt="instagram" class="main-info__icon" target="_blank"></a></li>
-                    <li><a href="https://vk.com/im?media=&sel=129417071" class="main-info__link"target="_blank"><img src="./image/vk.svg" alt="VKontakte" class="main-info__icon"></a></li>
-                    <li><a href="https://api.whatsapp.com/send/?phone=79537094059" class="main-info__link"target="_blank"><img src="./image/whatsup.svg" alt="WhatsUp" class="main-info__icon"></a></li>
+                    <li><a href="#" class="main-info__link"><img src="./image/ins-m.svg" alt="Инстаграм" class="main-info__icon" target="_blank"></a></li>
+                    <li><a href="https://vk.com/im?media=&sel=129417071" class="main-info__link"target="_blank"><img src="./image/vk.svg" alt="Вконтакте" class="main-info__icon"></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=79537094059&text=Здравствуйте%2C+у+меня+есть+вопрос" class="main-info__link"target="_blank"><img src="./image/whatsup.svg" alt="Вотс ап" class="main-info__icon"></a></li>
                 </ul>
             </nav>
+        </section>
+        <section class="about-me">
+          <h2 class="about-me__title">Обо мне</h2>
+          <p class="about-me__description"><span>Расскажу немного  о себе.</span>
+            Меня зовут Алия - татарочка , родом я из красивых краев Башкортостана.</p>
+          <img src="./image/6f32285469f981ff46fcf7d2f8febf03_cropped_666x461.jpg" alt="Фото с клиенткой" class="about-me__image">
+          <p class="about-me__description about-me__description_padding">В 2020 году , когда была на 1 курсе,
+            я приобрела  обучение на мастера по бровям и дальше завертелось …
+            <span>Работа в салоне , новые обучения , повышения, благодаря своему опыту
+            и стараниям я стала экспертом своего дела!</span></p>
+            <button class="button"><span class="button__span">Записаться онлайн<svg class="button__svg" width="25" height="25" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 39.9999L2.82509 29.7283C1.08181 26.7216 0.165787 23.3133 0.167462 19.8183C0.172486 8.89165 9.10659 0 20.0837 0C25.4107 0.00166666 30.4111 2.06666 34.1723 5.81332C37.9318 9.55998 40.0017 14.54 40 19.8366C39.995 30.7649 31.0609 39.6566 20.0837 39.6566C16.7512 39.6549 13.4673 38.8233 10.5585 37.2433L0 39.9999ZM11.0475 33.6549C13.8541 35.3133 16.5335 36.3066 20.077 36.3083C29.2004 36.3083 36.6323 28.9183 36.6374 19.8333C36.6407 10.73 29.2439 3.34999 20.0904 3.34666C10.9604 3.34666 3.53345 10.7366 3.5301 19.82C3.52843 23.5283 4.62028 26.3049 6.45399 29.2099L4.78104 35.2899L11.0475 33.6549ZM30.1164 24.5483C29.9925 24.3416 29.6609 24.2183 29.1619 23.9699C28.6645 23.7216 26.2179 22.5233 25.7607 22.3583C25.3052 22.1933 24.9736 22.11 24.6404 22.6066C24.3088 23.1016 23.3543 24.2183 23.0646 24.5483C22.7748 24.8783 22.4835 24.9199 21.9861 24.6716C21.4887 24.4233 19.8844 23.9016 17.9838 22.2133C16.5051 20.9 15.5053 19.2783 15.2156 18.7816C14.9259 18.2866 15.1855 18.0183 15.4333 17.7716C15.6577 17.55 15.9307 17.1933 16.1802 16.9033C16.4331 16.6166 16.5151 16.41 16.6826 16.0783C16.8484 15.7483 16.7663 15.4583 16.6407 15.21C16.5151 14.9633 15.5204 12.525 15.1068 11.5333C14.7015 10.5683 14.2912 10.6983 13.9864 10.6833L13.0319 10.6666C12.7003 10.6666 12.1611 10.79 11.7056 11.2866C11.2501 11.7833 9.96399 12.98 9.96399 15.4183C9.96399 17.8566 11.7475 20.2116 11.9953 20.5416C12.2448 20.8716 15.5036 25.8749 20.4957 28.0199C21.683 28.5299 22.6107 28.8349 23.3325 29.0633C24.5248 29.4399 25.61 29.3866 26.4674 29.2599C27.4236 29.1183 29.4114 28.0616 29.8267 26.9049C30.242 25.7466 30.242 24.7549 30.1164 24.5483Z" fill="white"/>
+              </svg></span></button>
+        </section>
+        <section class="portfolio">
+          <h2 class="portfolio__title">Портфолио</h2>
+          <div>
+          <h3 class="portfolio__subtitle">Брови</h3>
+          <ul class="portfolio__images">
+            <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
+          </ul>
+        </div>
+          <div>
+          <h3 class="portfolio__subtitle">Ресницы</h3>
+          <ul class="portfolio__images">
+            <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
+          </ul>
+        </div>
+        <button class="portfolio__button"><span class="portfolio__span">Посмотреть всё</span></button>
+        </section>
+        <section class="price">
+          <h2 class="price__title">Прайс лист</h2>
+          <ul class="price__lists">
+            <li class="price__list">
+              <div class="price__container">
+                <h3 class="price__name">Коррекция бровей</h3>
+                <p class="price__description">воск/пинцет</p>
+                <span class="price__sum">800 ₽</span>
+              </div>
+            </li>
+            <li class="price__list">
+              <div class="price__container">
+                <h3 class="price__name">Окрашивание бровей</h3>
+                <p class="price__description">хна/краска</p>
+                <span class="price__sum">800 ₽</span>
+              </div>
+            </li>
+            <li class="price__list">
+              <div class="price__container">
+                <h3 class="price__name">Коррекция + окрашивание бровей</h3>
+                <p class="price__description">хна/краска</p>
+                <span class="price__sum">1500 ₽</span>
+              </div>
+            </li>
+          </ul>
         </section>
     </main>
     <footer class="footer"></footer>
