@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url(block/header/header.css);
+@import url(block/avatar-block/avatar-block.css);
 @import url(block/button/button.css);
 @import url(block/main-info/main-info.css);
 @import url(block/about-me/about-me.css);
 @import url(block/portfolio/portfolio.css);
 @import url(block/price/price.css);
 @import url(block/contacts/contacts.css);
+
+html {
+  scroll-behavior: smooth;
+}
 .page {
     margin: 0 auto 0;
     max-width: 790px;
     box-sizing: border-box;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+
 }
 
 

@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 390px;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-
+  scroll-margin: 60px;
 }
 
 .about-me__description {

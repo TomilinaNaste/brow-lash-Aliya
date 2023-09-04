@@ -36,6 +36,11 @@
   cursor: pointer;
 }
 
+.contacts__button:hover {
+  background-color: #184C30;
+  color: #fff;
+}
+
 .contacts__button-container {
   display: flex;
   flex-direction: column;
