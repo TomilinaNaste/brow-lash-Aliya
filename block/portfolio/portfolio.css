@@ -10,13 +10,42 @@
   object-fit: cover;
 }
 
+.portfolio__images li:last-child {
+  position: relative;
+  display: block;
+
+}
+
+.portfolio__span {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, .4);
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+}
+.portfolio__span:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.portfolio__span p{
+  color: #fff;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+
 .portfolio__images {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
   gap: 8px;
-  /* padding: 0 0 17px 19px; */
   padding-bottom: 17px;
   overflow: hidden;
   scroll-behavior: smooth;
