@@ -18,6 +18,17 @@
   gap: 8px;
   /* padding: 0 0 17px 19px; */
   padding-bottom: 17px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.portfolio__images.dragging img {
+  pointer-events: none;
+}
+
+.portfolio__images.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
 }
 
 .portfolio__subtitle {
