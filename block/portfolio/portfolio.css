@@ -26,12 +26,8 @@ background: rgba(0, 0, 0, .4);
 display: flex;
 align-items: center;
 justify-content: center;
-opacity: 0;
 }
-.portfolio__span:hover {
-  opacity: 1;
-  cursor: pointer;
-}
+
 .portfolio__span p{
   color: #fff;
   font-family: Roboto, Arial, Helvetica, sans-serif;
