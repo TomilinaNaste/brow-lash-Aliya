@@ -7,6 +7,7 @@
 @import url(block/portfolio/portfolio.css);
 @import url(block/price/price.css);
 @import url(block/contacts/contacts.css);
+@import url(block/popup/popup.css);
 
 html {
   scroll-behavior: smooth;
