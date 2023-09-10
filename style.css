@@ -8,21 +8,9 @@
 @import url(block/price/price.css);
 @import url(block/contacts/contacts.css);
 @import url(block/popup/popup.css);
+@import url(block/page/page.css);
 
-html {
-  scroll-behavior: smooth;
-}
-.page {
-    margin: 0 auto 0;
-    max-width: 790px;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
 
-}
 
 
 

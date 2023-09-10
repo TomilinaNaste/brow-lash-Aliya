@@ -1,0 +1,46 @@
+.galary {
+  margin: 0 auto;
+  max-width: 390px;
+
+}
+
+.galary__images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0 19px;
+}
+
+.galary__image{
+  width: 171px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.galary__button {
+  margin: 24px 0 16px 19px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 88px;
+  height: 32px;
+  border-radius: 30px;
+  border: 1px solid #282828;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.galary__button_active {
+  background-color: #184C30;
+  border: 1px solid #184C30;
+  color: #fff;
+
+}
