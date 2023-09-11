@@ -19,12 +19,6 @@
   background-color: #0D321E;
 }
 
-@media (pointer: coarse) {
-  button:hover {
-    background-color: #184C30;
-  }
-}
-
 .button_margin {
   margin-top: -35px;
 }
