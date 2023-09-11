@@ -21,3 +21,5 @@ const closePopup = () => {
 popupImage.addEventListener("click", () => {
   closePopup();
 });
+
+const browButton = document.getElementById("brow");

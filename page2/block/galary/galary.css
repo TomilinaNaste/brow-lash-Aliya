@@ -9,7 +9,6 @@
   grid-template-columns: repeat(2, 171px);
   gap: 10px;
   padding: 0 19px;
-
 }
 
 .galary__image{
@@ -56,4 +55,8 @@
     height: 194px;
     gap: 7px;
 }
+}
+
+.galary__disable {
+  display: none;
 }

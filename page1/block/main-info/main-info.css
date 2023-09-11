@@ -28,27 +28,27 @@
 .main-info__icon {}
 
 .main-info__icon_inst {
-  background-image: url(../../image/ins-m.svg);
+  background-image: url(../../../image/ins-m.svg);
 }
 
 .main-info__icon_inst:hover {
-  background-image: url(../../image/inst-color.svg);
+  background-image: url(../../../image/inst-color.svg);
 }
 
 .main-info__icon_vk {
-  background-image: url(../../image/vk.svg);
+  background-image: url(../../../image/vk.svg);
 }
 
 .main-info__icon_vk:hover {
-  background-image: url(../../image/vk-color.svg);
+  background-image: url(../../../image/vk-color.svg);
 }
 
 .main-info__icon_wa {
-  background-image: url(../../image/whatsup.svg);
+  background-image: url(../../../image/whatsup.svg);
 }
 
 .main-info__icon_wa:hover {
-  background-image: url(../../image/whatsup-color.svg);
+  background-image: url(../../../image/whatsup-color.svg);
 }
 
 .main-info__icons {

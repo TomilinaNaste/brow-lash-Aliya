@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url(block/header/header.css);
 @import url(block/avatar-block/avatar-block.css);
-@import url(block/button/button.css);
 @import url(block/main-info/main-info.css);
 @import url(block/about-me/about-me.css);
 @import url(block/portfolio/portfolio.css);

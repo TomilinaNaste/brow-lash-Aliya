@@ -40,6 +40,39 @@
   text-transform: uppercase;
   padding-bottom: 24px;
 }
+
+
 .about-me__button {
+  text-decoration: none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border: none;
+  background-color: #184C30;
+  border-radius: 30px;
+  color: #FFF;
   width: 352px;
+  height: 56px;
+  display: flex;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.about-me__button:hover {
+  background-color: #0D321E;
+}
+
+.about-me__span {
+  position: relative;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 14px 0 0 69px;
+}
+
+.about-me__svg {
+  position: absolute;
+  left: 256px;
 }
