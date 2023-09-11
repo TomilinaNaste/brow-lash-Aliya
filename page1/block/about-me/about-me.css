@@ -17,6 +17,11 @@
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 375px) {
+  .about-me__description {
+    padding: 0 11px;
+  }
+}
 
 .about-me__description_padding {
   padding-bottom: 24px;
@@ -77,8 +82,3 @@
   left: 256px;
 }
 
-@media screen and (max-width: 375px) {
-  .about-me__description {
-    padding-right: 11px;
-  }
-}
