@@ -23,3 +23,20 @@ popupImage.addEventListener("click", () => {
 });
 
 const browButton = document.getElementById("brow");
+const lashButton = document.getElementById("lash");
+const browImages = document.querySelector(".galary__brow");
+const lashImages = document.querySelector(".galary__lash");
+
+// Добавляем обработчик событий к родительскому элементу
+document.addEventListener("click", (event) => {
+  // Проверяем, была ли нажата кнопка
+  if (event.target.matches("#brow, #lash")) {
+    // Переключаем классы активности кнопок
+    browButton.classList.toggle("galary__button_active", event.target.id === "brow");
+    lashButton.classList.toggle("galary__button_active", event.target.id === "lash");
+
+    // Переключаем классы активности изображений
+    browImages.classList.toggle("galary__disable", event.target.id === "lash");
+    lashImages.classList.toggle("galary__disable", event.target.id === "brow");
+  }
+});
