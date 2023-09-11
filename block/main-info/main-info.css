@@ -1,23 +1,22 @@
 .main-info {
-    margin: 0 auto;
-    max-width: 390px;
-    padding: 54px 0 64px;
+  margin: 0 auto;
+  max-width: 390px;
+  padding: 26px 0 60px;
 
 }
 
-.main-info__description {
-    margin: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 19px;
-    color: #575757;
-
+.main-info__list {
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0 7px 0 43px;
+  color: #575757;
 }
+
+
 .main-info__link {
   cursor: pointer;
   display: inline-block;
@@ -25,52 +24,58 @@
   height: 40px;
   background-repeat: no-repeat;
 }
-.main-info__icon {
 
-}
-.main-info__icon_inst{
+.main-info__icon {}
+
+.main-info__icon_inst {
   background-image: url(../../image/ins-m.svg);
 }
-.main-info__icon_inst:hover{
+
+.main-info__icon_inst:hover {
   background-image: url(../../image/inst-color.svg);
 }
-.main-info__icon_vk{
+
+.main-info__icon_vk {
   background-image: url(../../image/vk.svg);
 }
-.main-info__icon_vk:hover{
+
+.main-info__icon_vk:hover {
   background-image: url(../../image/vk-color.svg);
 }
-.main-info__icon_wa{
+
+.main-info__icon_wa {
   background-image: url(../../image/whatsup.svg);
 }
-.main-info__icon_wa:hover{
+
+.main-info__icon_wa:hover {
   background-image: url(../../image/whatsup-color.svg);
 }
+
 .main-info__icons {
-    list-style-type: none;
-    margin: 0;
-    padding: 40px 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 56px
+  list-style-type: none;
+  margin: 0;
+  padding: 40px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 56px
 }
 
 .main-info__subtitle {
-    margin: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 0 12px 19px;
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 0 12px 19px;
 }
 
 .main-info__title {
-    margin: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    text-align: center;
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
 }

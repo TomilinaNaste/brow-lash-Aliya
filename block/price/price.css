@@ -12,7 +12,7 @@
   color: #575757;
   margin: 0;
   grid-area: desc;
-  padding-bottom: 8px;
+  padding: 0 13px 7px 0;
 
 }
 
@@ -63,9 +63,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: 40px;
-  /* 125% */
   text-transform: uppercase;
   margin: 0;
   text-align: center;
-  padding: 64px 0 24px;
+  padding: 48px 0 24px;
 }

@@ -7,6 +7,7 @@
 
 .about-me__description {
   margin: 0;
+  padding: 0 26px;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -37,4 +38,8 @@
   line-height: 40px;
   /* 125% */
   text-transform: uppercase;
+  padding-bottom: 24px;
+}
+.about-me__button {
+  width: 352px;
 }
