@@ -1,5 +1,5 @@
 .header {
-  max-width: 390px;
+  max-width: 768px;
   margin: 0 auto;
   padding-top: 36px;
   padding: 44px 0 16px;
@@ -8,6 +8,7 @@
   background-color: white;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
 }
+
 
 
 
@@ -31,4 +32,10 @@
   display: flex;
   gap: 36px;
   justify-content: center;
+}
+
+@media screen and (max-width: 370px) {
+.header__links {
+  gap: 30px;
+}
 }
