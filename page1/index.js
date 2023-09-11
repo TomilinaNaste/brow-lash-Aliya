@@ -43,6 +43,3 @@ carouselItems.forEach((carousel) => {
   carousel.addEventListener("touchcancel", dragStop);
   carousel.lastElementChild.addEventListener("click", openLink);
 });
-
-
-
