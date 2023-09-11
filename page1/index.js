@@ -44,27 +44,5 @@ carouselItems.forEach((carousel) => {
   carousel.lastElementChild.addEventListener("click", openLink);
 });
 
-const openPopup = function (popupElement) {
-  popupElement.classList.add("popup_open");
-};
-
-// const portfolioImages = document.querySelectorAll(".portfolio__image");
-// const popupImage = document.querySelector(".popup__image");
-// const popupImageElement = document.querySelector(".popup-image");
-
-// portfolioImages.forEach((portfolioImage) => {
-//   //открытие поп-апа картинки
-//   portfolioImage.addEventListener("click", () => {
-//     popupImage.src = portfolioImage.src;
-//     popupImage.alt = portfolioImage.alt;
-//     openPopup(popupImageElement);
-//   });
-// });
 
 
-// popupImage.addEventListener("click", () => {
-//   closePopup(popupImageElement)
-// });
-// const closePopup = function (popup) {
-//   popup.classList.remove("popup_open");
-// };
