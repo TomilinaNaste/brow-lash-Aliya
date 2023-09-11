@@ -8,13 +8,16 @@
   justify-content: center;
   align-items: center;
   visibility: hidden;
+  z-index: 2;
 }
+
 .popup__image{
   width: 95vw;
   height: 95vh;
   object-fit: cover;
 }
 
-.popup_open{
+.popup_open {
   visibility: visible;
+  background-color: rgb(0%, 0%, 0%, 0.4);
 }

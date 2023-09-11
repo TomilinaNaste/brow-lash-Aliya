@@ -51,7 +51,7 @@
   background-color: #184C30;
   border-radius: 30px;
   color: #FFF;
-  width: 352px;
+  width: calc(100% - 19px*2);
   height: 56px;
   display: flex;
   cursor: pointer;
@@ -75,4 +75,10 @@
 .about-me__svg {
   position: absolute;
   left: 256px;
+}
+
+@media screen and (max-width: 375px) {
+  .about-me__description {
+    padding-right: 11px;
+  }
 }
