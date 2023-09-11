@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aliya-Brow-Lash</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="index.js" defer></script>
 </head>
 <body class="page">
     <header class="header">
         <nav>
             <ul class="header__links">
                 <li><a href="#aboutMe" class="header__link" >Обо мне</a></li>
-                <li><a href="#galary" class="header__link">Галерея</a></li>
+                <li><a href="page2.html" class="header__link">Галерея</a></li>
                 <li><a href="#services" class="header__link">Услуги</a></li>
                 <li><a href="#contacts" class="header__link">Контакты</a></li>
             </ul>
@@ -52,16 +53,26 @@
           <h2 class="portfolio__title">Портфолио</h2>
           <div>
           <h3 class="portfolio__subtitle">Брови</h3>
-          <ul class="portfolio__images">
+          <ul class="portfolio__images portfolio__images-brow ">
+            <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
             <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
             <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
+            <li data-link="page2.html"><img src="./image/brow.jpg" alt="#" class="portfolio__image" ><span class="portfolio__span"><p>посмотреть ещё</p></span></li>
           </ul>
         </div>
           <div>
           <h3 class="portfolio__subtitle">Ресницы</h3>
-          <ul class="portfolio__images">
+          <ul class="portfolio__images portfolio__images-lash">
+            <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/brow.jpg" alt="#" class="portfolio__image"></li>
             <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
             <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
+            <li><img src="./image/lash.jpg" alt="#" class="portfolio__image"></li>
+            <li data-link="https://example.com"><img src="./image/lash.jpg" alt="#" class="portfolio__image"><span class="portfolio__span"><p>посмотреть ещё</p></span></li>
           </ul>
         </div>
         </section>
@@ -151,6 +162,11 @@
           <a href="https://instagram.com/aliya_brow_lash?igshid=NTc4MTIwNjQ2YQ==" target="_blank" class="contacts__button"><p>instagram</p></a>
           </div>
         </section>
+
+        <section class="popup popup-image">
+              <img src="#" alt="#" class="popup__image">
+        </section>
+
     </main>
     <footer class="footer"></footer>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A476f0ecbb06e96daffcc3dca0e37b5d7e15db94dafc69e1cfd1c53d9ef24a946&amp;width=100%&amp;height=290&amp;lang=ru_RU&amp;scroll=false"></script>
